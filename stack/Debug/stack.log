@@ -185,37 +185,37 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(161): warning C4820: 'std::basic_ostream<char,std::char_traits<char>>::sentry': '3' bytes padding added after data member 'std::basic_ostream<char,std::char_traits<char>>::sentry::_Ok'
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(423): note: see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>::sentry' being compiled
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(421): note: while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(689): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(693): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)' being compiled
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(687): note: see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(433): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(333): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(321): note: while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(689): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(693): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(129): warning C4820: 'std::basic_istream<char,std::char_traits<char>>::sentry': '3' bytes padding added after data member 'std::basic_istream<char,std::char_traits<char>>::sentry::_Ok'
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(378): note: see reference to class template instantiation 'std::basic_istream<char,std::char_traits<char>>::sentry' being compiled
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(374): note: while compiling class template member function 'int std::basic_istream<char,std::char_traits<char>>::get(void)'
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(730): note: see reference to function template instantiation 'int std::basic_istream<char,std::char_traits<char>>::get(void)' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(734): note: see reference to function template instantiation 'int std::basic_istream<char,std::char_traits<char>>::get(void)' being compiled
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(773): note: see reference to class template instantiation 'std::basic_istream<char,std::char_traits<char>>' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\istream(394): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
-d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(352): warning C4189: 'ret': local variable is initialized but not referenced
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(338): note: while compiling class template member function 'Double_linked_node<val_type> *Double_linked_list<val_type>::operator [](size_t) const'
+d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(356): warning C4189: 'ret': local variable is initialized but not referenced
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(342): note: while compiling class template member function 'Double_linked_node<val_type> *Double_linked_list<val_type>::operator [](size_t) const'
           with
           [
               val_type=float
           ]
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(660): note: see reference to function template instantiation 'Double_linked_node<val_type> *Double_linked_list<val_type>::operator [](size_t) const' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(664): note: see reference to function template instantiation 'Double_linked_node<val_type> *Double_linked_list<val_type>::operator [](size_t) const' being compiled
           with
           [
               val_type=float
           ]
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(673): note: see reference to class template instantiation 'Double_linked_list<val_type>' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(677): note: see reference to class template instantiation 'Double_linked_list<val_type>' being compiled
           with
           [
               val_type=float
           ]
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(672): note: while compiling class template member function 'size_t Stack<float>::Get_size(void)'
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(689): note: see reference to function template instantiation 'size_t Stack<float>::Get_size(void)' being compiled
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(685): note: see reference to class template instantiation 'Stack<float>' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(676): note: while compiling class template member function 'size_t Stack<float>::Get_size(void)'
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(693): note: see reference to function template instantiation 'size_t Stack<float>::Get_size(void)' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(689): note: see reference to class template instantiation 'Stack<float>' being compiled
 d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(62): warning C5038: data member 'Double_linked_list<val_type>::first_' will be initialized after data member 'Double_linked_list<val_type>::size_'
           with
           [
@@ -226,7 +226,7 @@ d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(62): warning C5038: da
           [
               val_type=float
           ]
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(592): note: see reference to function template instantiation 'Double_linked_list<val_type>::Double_linked_list(void)' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(596): note: see reference to function template instantiation 'Double_linked_list<val_type>::Double_linked_list(void)' being compiled
           with
           [
               val_type=float
@@ -236,7 +236,7 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
   d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(25): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(313): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(296): note: while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(341): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(345): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(181): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(176): note: while compiling class template member function 'void std::basic_ostream<char,std::char_traits<char>>::_Osfx(void)'
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(139): note: see reference to function template instantiation 'void std::basic_ostream<char,std::char_traits<char>>::_Osfx(void)' being compiled
@@ -266,19 +266,19 @@ c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.1
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\string(544): note: e.g. instead of printf(name); use printf("%s", name); because format specifiers in 'name' may pose a security issue
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\string(544): note: consider using constexpr specifier for named string literals
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(864): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(216): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)' being compiled
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(213): note: while compiling class template member function 'bool Double_linked_list<val_type>::Delete_element(Double_linked_node<val_type> *)'
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(220): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(217): note: while compiling class template member function 'bool Double_linked_list<val_type>::Delete_element(Double_linked_node<val_type> *)'
           with
           [
               val_type=float
           ]
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(618): note: see reference to function template instantiation 'bool Double_linked_list<val_type>::Delete_element(Double_linked_node<val_type> *)' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(622): note: see reference to function template instantiation 'bool Double_linked_list<val_type>::Delete_element(Double_linked_node<val_type> *)' being compiled
           with
           [
               val_type=float
           ]
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(826): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
-  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(689): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)' being compiled
+  d:\visual_studio_projects\c++\study\stack\stack\stack.cpp(693): note: see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)' being compiled
 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(558): warning C4571: Informational: catch(...) semantics changed since Visual C++ 7.1; structured exceptions (SEH) are no longer caught
   c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\ostream(546): note: while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::put(_Elem)'
           with
